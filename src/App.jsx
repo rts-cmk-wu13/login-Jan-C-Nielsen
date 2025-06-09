@@ -8,6 +8,8 @@ import  Login  from './pages/login'
 import ReqAuth from './components/Req'
 import Signup from './pages/signup'
 import Statements from './pages/Statements'
+import Secrets from './pages/secrets'
+
 //import './App.css'
 
 function App() {
@@ -32,6 +34,10 @@ function App() {
     {
       path: "statements",
       element: <ReqAuth> <Statements/></ReqAuth>
+    },
+    {
+      path: "Secrets",
+      element: <ReqAuth> <Secrets/></ReqAuth>
     },
     {
       path: "/",
